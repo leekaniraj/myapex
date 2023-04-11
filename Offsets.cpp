@@ -1,9 +1,10 @@
+
 #pragma once
 namespace offsets
 {
     // buttons
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const long IN_ATTACK = 0x07872cf0 + 0x8;            // [Buttons] -> in_attack
+    const long IN_ATTACK = 0x07872cf0;            // [Buttons] -> in_attack
     // core
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long REGION = 0x140000000;              // [Mine]          -> Region
@@ -17,7 +18,7 @@ namespace offsets
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long GLOW_ENABLE = (0x03c0 + 0x8);        // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x8
     const long GLOW_THROUGH_WALL = (0x03c0 + 0x10); // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x10
-    const long GLOW_COLOR = 0x1d0;                  // [Miscellaneous]                  -> glow_color
+    const long GLOW_COLOR = 0x0018;                  // [Miscellaneous]                  -> glow_color
     const long TEAM_NUMBER = 0x044c;                // [RecvTable.DT_BaseEntity]        -> m_iTeamNum
     const long NAME = 0x0589;                       // [RecvTable.DT_BaseEntity]        -> m_iName
     const long LIFE_STATE = 0x0798;                 // [RecvTable.DT_Player]            -> m_lifeState
