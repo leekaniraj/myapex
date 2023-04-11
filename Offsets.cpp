@@ -5,16 +5,16 @@ namespace offsets
 {
     // buttons
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const long IN_ATTACK = 0x076780e8; // [Buttons] -> in_attack
+    const long IN_ATTACK = 0x07872cf0 + 0x8;            // [Buttons] -> in_attack
     // core
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long REGION = 0x140000000;              // [Mine]          -> Region
-    const long LEVEL = 0x1462460;                 // [Miscellaneous] -> LevelName
-    const long LOCAL_PLAYER = (0x01ee8b70 + 0x8); // [Miscellaneous] -> AVC_GameMovement+0x8
-    const long ENTITY_LIST = 0x1b37938;           // [Miscellaneous] -> cl_entitylist
+    const long LEVEL = 0x163a9e0;                 // [Miscellaneous] -> LevelName
+    const long LOCAL_PLAYER = (0x020c21d0 + 0x8);       // [Miscellaneous] -> AVC_GameMovement+0x8
+    const long ENTITY_LIST = 0x1d10ef8;           // [Miscellaneous] -> cl_entitylist
     // entity
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    const long LOCAL_ORIGIN = 0x0158; // [DataMap.CBaseViewModel]    -> m_localOrigin
+    const long LOCAL_ORIGIN = 0x0004; // [DataMap.CBaseViewModel]    -> m_localOrigin
     // player
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const long GLOW_ENABLE = (0x03c0 + 0x8);        // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x8
