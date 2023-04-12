@@ -1,6 +1,4 @@
-    //season 16 03/04/23
-    //ToggleBot
-    //https://pastebin.com/raw/2kDDf1NW
+
     #pragma once
     namespace offsets
     {
