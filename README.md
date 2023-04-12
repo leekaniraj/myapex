@@ -23,7 +23,7 @@ Only works horizontally.
 1. Open terminal and run the following to download the cheat source code
 
 ```
-git clone https://github.com/leekaniraj/myapex.git
+git clone https://github.com/leekaniraj/myapex
 ```
 
 2. Go inside the downloaded folder
@@ -49,13 +49,13 @@ sudo ./a.out
 If everything went fine then you will see something simmilar to the text below
 ```
 ======================== SETTINGS LOADED ========================
-FEATURE_AIMBOT_ON               false
+FEATURE_AIMBOT_ON               true
 FEATURE_NORECOIL_ON             true
 FEATURE_SENSE_ON                true
 AIMBOT_TRIGGER                  0
 AIMBOT_SMOOTHING                100
-AIMBOT_ACTIVATION_FOV           20
-AIMBOT_MAX_RANGE                50
+AIMBOT_ACTIVATION_FOV           2
+AIMBOT_MAX_RANGE                100
 NORECOIL_PITCH_STRENGTH         0.500000
 NORECOIL_YAW_STRENGTH           0.500000
 =================================================================
